@@ -8,6 +8,7 @@ $(function() {
       $(".pagination .active").removeClass("active");
 
       $(".pagination").find("a[href=\"#" + ref + "\"]").addClass("active");
+
     },
     afterRender:function() {
       var pagination = "<ul class=\"pagination\">";
@@ -26,16 +27,6 @@ $(function() {
     }
   });
 
-
-  /*
-
-  Tip: The two click events below are the same:
-
-  $(".pagination a").on("click",function() {
-    $.scrollify.move($(this).attr("href"));
-  });
-
-  */
   $(".pagination a").on("click",$.scrollify.move);
 
 });
