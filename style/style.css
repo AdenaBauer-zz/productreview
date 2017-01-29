@@ -291,6 +291,9 @@ q:before, q:after {
     p{
         font-size: 14pt;
     }
+    .recText{
+        font-size: 12pt;
+    }
     .tealMain img{
         opacity:0;
     }
@@ -314,7 +317,7 @@ q:before, q:after {
         font-size: 30pt;
     }
     .recText{
-        font-size: 30pt;
+        font-size: 26pt;
     }
 
     p{
@@ -347,7 +350,7 @@ q:before, q:after {
         font-size: 24pt;
     }
     .recText{
-        font-size: 24pt;
+        font-size: 20pt;
     }
 
     p{
@@ -379,7 +382,7 @@ q:before, q:after {
         font-size: 24pt;
     }
     .recText{
-        font-size: 24pt;
+        font-size: 20pt;
     }
 
     p{
@@ -394,6 +397,10 @@ q:before, q:after {
     .header-content h1{
         font-size: 40pt;
     }
+        .recText{
+        font-size: 30pt;
+    }
+
 }
 
 
