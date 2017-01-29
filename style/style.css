@@ -141,7 +141,6 @@ h2 {
 }
 
 .header-content p {
-    font-size:16pt;
     line-height:1.4;
     margin-top:30px;
     font-family:"Lato", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
@@ -388,11 +387,13 @@ q:before, q:after {
     p{
         font-size: 12pt;
     }
+}
 @media screen and (max-height: 600px){
     .header-content h1{
         font-size: 50pt;
 
     }
+}
 @media screen and (max-width: 600px){
     .header-content h1{
         font-size: 40pt;
@@ -400,6 +401,16 @@ q:before, q:after {
         .recText{
         font-size: 30pt;
     }
+}
+
+@media screen and (max-width: 550px){
+    h2{
+        font-size:14pt;
+    }
+    p{
+        font-size: 11pt;
+    }
+
 
 }
 
