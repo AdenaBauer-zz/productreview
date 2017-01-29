@@ -313,6 +313,9 @@ q:before, q:after {
     h2{
         font-size: 30pt;
     }
+    .recText{
+        font-size: 30pt;
+    }
 
     p{
         font-size: 14pt;
@@ -328,7 +331,7 @@ q:before, q:after {
         display: table-cell;
         vertical-align: middle;
         margin: 0, auto;
-
+        font-size: 60pt;
 
     }
     .header-content p{
@@ -341,6 +344,9 @@ q:before, q:after {
 @media screen and  (max-width: 800px){
     
     h2{
+        font-size: 24pt;
+    }
+    .recText{
         font-size: 24pt;
     }
 
@@ -372,13 +378,21 @@ q:before, q:after {
     h2{
         font-size: 24pt;
     }
+    .recText{
+        font-size: 24pt;
+    }
 
     p{
         font-size: 12pt;
     }
-@media screen and (max-width: 600px){
-    h1{
-        font-size: 40pt;
+@media screen and (max-height: 600px){
+    .header-content h1{
+        font-size: 50pt;
+
+    }
+@media screen and (max-width: 700px){
+    .header-content h1{
+        font-size: 50pt;
     }
 }
 
