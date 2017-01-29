@@ -20,7 +20,6 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
@@ -44,17 +43,6 @@ table {
     border-spacing: 0;
 }
 
-/****** Main ********/
-
-/*body {
-    color:white;
-    font-size:62.5%;
-    font-family: 'Lato', sans-serif;
-}*/
-
-/* HOME */
-
-
 .scrollNotice{
     color:gray;
     font-size: 12pt;
@@ -67,14 +55,12 @@ table {
 
 h1 {
     font-size:7em;
-    /*color:#555;*/
     font-family: 'Montserrat', sans-serif;
 }
 h2 {
     font-family: 'Montserrat', sans-serif;
 }
 .inner {
-    /*width:1270px;*/
     margin:0 auto;
     display: table;
     position: relative;
@@ -93,10 +79,8 @@ h2 {
 
 .content {
     width:900px;
-    /*top: 150px;*/
     height: auto;
     margin: 0 auto;
-    /*padding: 10px;*/
     position: relative;
     padding: 0% 10% 0% 10%;
     display: table-cell;
@@ -138,7 +122,6 @@ h2 {
 }
 
 .graphPicWrap img {
-  /* Just in case there are inline attributes */
   width: 100%;
   height: auto !important;
   padding: 30px;
@@ -158,18 +141,14 @@ p {
 }
 h2 {
     font-size:3em;
-    /*line-height: 2.2*/
 }
 
-/*END PANEL WHY*/
 .panel.home {
   background-color:#f0f2f4;
-  /*border-bottom:1px solid #ddd;*/
   color: #0A1021;
 }
 .home .header-content {
     position: relative;
-    /*left:50px;*/
     top:200px;
     width:25%;
 }
@@ -196,13 +175,10 @@ h2 {
 }
 
 .panel.panelHolistic{
-    /*background-color: #47A3D1;*/
     background-color: #082E3B;
     color: white;
 }
 
-
-/*Panel 6*/
 .panel.panelRec {
     background-color: #310D20;
     color:white;
@@ -211,7 +187,6 @@ h2 {
 .panel.panelRec2 {
     background-color: white;
     color: #310D20;
-    /*background:rgba(255,255,255,0.2);*/
 }
 
 .panel.panelClose {
@@ -255,9 +230,7 @@ h2 {
     -webkit-transition: opacity 0.5s ease;
     transition: opacity 0.5s ease;
 }
-.pagination a:hover .hover-text {
-    /*opacity: 1;*/
-}
+
 .pagination a:after {
     width:4px;
     height:4px;
@@ -279,14 +252,11 @@ h2 {
     width:auto;
 }
 .dashPic img {
-    /*top: 5%;*/
     width:30%;
     height: auto;
 }
 .honestImg {
     float:right;
-   /* width:100px;
-    height: auto;*/
     margin-right: 50px;
     margin-top: 13%;
 }
@@ -311,10 +281,6 @@ h2 {
    z-index: -1;
 }
 @media screen and (max-width: 995px){
-    div {
-        /*width: 300px;*/
-        /*color:red;*/
-    }
     h2{
         font-size: 30pt;
     }
@@ -341,10 +307,6 @@ h2 {
     }
 }
 @media  screen and (max-height: 700px){
-    div {
-        /*width: 300px;*/
-        /*color:red;*/
-    }
     h2{
         font-size: 30pt;
     }
@@ -374,14 +336,9 @@ h2 {
 .highlight {
   background:#7f7f7f;
   background:rgba(255,255,255,0.2);
-  /*font-style: italic;*/
-  /*font-weight: 600;*/
   font-family: 'Montserrat', sans-serif;
-
-
-  /*font-size: larger;*/
-
 }
+
 blockquote, q {
     quotes: none;
 }
@@ -392,10 +349,7 @@ q:before, q:after {
 }
 
 @media screen and  (max-width: 800px){
-    div {
-        /*width: 300px;*/
-        /*color:red;*/
-    }
+
     h2{
         font-size: 24pt;
     }
@@ -426,37 +380,6 @@ q:before, q:after {
         font-size: 12pt;
     }
 }
-/*
-@media (max-width: 1200px) {
-  .graphPicWrap {
-  -moz-column-count:    4;
-  -webkit-column-count: 4;
-  column-count:         4;
-  }
-}
-@media (max-width: 1000px) {
-  .graphPicWrap {
-  -moz-column-count:    3;
-  -webkit-column-count: 3;
-  column-count:         3;
-  }
-}
-@media (max-width: 800px) {
-  .graphPicWrap {
-  -moz-column-count:    2;
-  -webkit-column-count: 2;
-  column-count:         2;
-  }
-}
-@media (max-width: 400px) {
-  .graphPicWrap {
-  -moz-column-count:    1;
-  -webkit-column-count: 1;
-  column-count:         1;
-  }
-}*/
-
-
 
 
 
